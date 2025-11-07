@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const texto = `Hola, me interesa el servicio de ${servicio}. Mi nombre es ${nombre}, mi email es ${email}. Mensaje: ${mensaje}`;
         const encodedText = encodeURIComponent(texto);
-        const phoneNumber = "5493621234567"; // Reemplazar con número real
+        const phoneNumber = "549364096688"; 
         window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, '_blank');
     });
 
