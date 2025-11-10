@@ -124,3 +124,9 @@ footer {
 .social-icons a:hover {
     color: var(--secondary-color);
 }
+
+@media  {max-width: 550px;
+    .TituloEncabezado{
+        font-size: small;
+    }
+}
